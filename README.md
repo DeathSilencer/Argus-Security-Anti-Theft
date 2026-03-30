@@ -62,29 +62,6 @@ Argus no es solo un rastreador GPS; es un **Sistema de Defensa Táctica**. Desar
 
 ---
 
-## `>_` 🎥 Demos en Vivo
-
-¡Mira el Sistema Argus en acción!
-
-<div align="center">
-  <table>
-    <tr>
-      <td align="center">
-        <strong>⚡ Apagado Simulado (Falso)</strong><br>
-        <em>Atrapa al intruso intentando apagar tu equipo.</em><br><br>
-        <img src="assets/demo_fake_shutdown.gif" width="100%" alt="Demo Falso Apagado">
-      </td>
-      <td align="center">
-        <strong>🚨 Panel Web: Rastreo y Evidencia</strong><br>
-        <em>Toma el control remoto desde cualquier navegador.</em><br><br>
-        <img src="assets/demo_web_panel.gif" width="100%" alt="Demo Panel Web">
-      </td>
-    </tr>
-  </table>
-</div>
-
----
-
 ## `>_` 📱 Galería de Pantallas
 
 Explora la interfaz móvil y el centro de mando:
@@ -195,7 +172,7 @@ Si encuentras un *bug* o anomalía, por favor utiliza el **Centro de Ayuda / Rep
 
 ## `>_` 🙌 Créditos y Desarrollador
 
-- 👨‍💻 Arquitectura, diseño y desarrollo Full-Stack por **David Platas** (Armando David Platas Soto).
+- 👨‍💻 Arquitectura, diseño y desarrollo Full-Stack por **David Platas**.
 - 🛡️ Operando bajo el principio de "Privacidad por Diseño".
 
 <div align="center">
