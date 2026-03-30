@@ -71,8 +71,18 @@ Explora la interfaz móvil y el centro de mando:
     <table>
         <tr>
             <td align="center" width="50%">
+                <strong>Acceso Seguro (Login)</strong><br>
+                <img src="assets/screenshot_login.png" width="100%" alt="Login">
+            </td>
+            <td align="center" width="50%">
                 <strong>Dashboard Móvil (El Escudo)</strong><br>
                 <img src="assets/screenshot_mobile_dash.png" width="100%" alt="Mobile Dashboard">
+            </td>
+        </tr>
+        <tr>
+            <td align="center" width="50%">
+                <strong>Gestión de Licencia</strong><br>
+                <img src="assets/screenshot_licence.png" width="100%" alt="Licencia en App">
             </td>
             <td align="center" width="50%">
                 <strong>Configuración de Centinelas</strong><br>
@@ -80,11 +90,8 @@ Explora la interfaz móvil y el centro de mando:
             </td>
         </tr>
         <tr>
-            <td align="center" width="50%">
-                <strong>Licencia en App</strong><br>
-                <img src="assets/screenshot_licence.png" width="100%" alt="Evidencia">
-            </td>
-            <td align="center" width="50%"> <strong>Arsenal Web (Centro de Mando)</strong><br>
+            <td align="center" colspan="2">
+                <strong>Arsenal Web (Centro de Mando)</strong><br>
                 <img src="assets/screenshot_web_arsenal.png" width="100%" alt="Web Arsenal">
             </td>
         </tr>
