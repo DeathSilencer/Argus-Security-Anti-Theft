@@ -30,7 +30,6 @@
         
 - [`>_` Argus Anti-rrobo (Security System)](#_-argus-anti-rrobo-security-system)
   - [`>_` Propósito](#_-propósito)
-  - [`>_` 🎥 Demos en Vivo](#_--demos-en-vivo)
   - [`>_` 📱 Galería de Pantallas](#_--galería-de-pantallas)
   - [`>_` ⬇️ Descarga Oficial](#_-️-descarga-oficial)
   - [`>_` Características](#_-características)
@@ -106,7 +105,7 @@ Explora la interfaz móvil y el centro de mando:
 Este repositorio es el único canal oficial de distribución. Descarga el archivo `argus_v2.5.apk` directamente desde la sección de **Releases**:
 
 <div align="center">
-  <a href="https://github.com/TU_USUARIO/Argus-Security-Suite/releases/latest">
+  <a href="https://github.com/DeathSilencer/Argus-Security-Anti-Theft/releases">
     <img src="https://img.shields.io/badge/Descargar_APK_Oficial-3DDC84?style=for-the-badge&logo=android&logoColor=white" height="60" />
   </a>
 </div>
@@ -156,6 +155,21 @@ Este ecosistema ha sido diseñado bajo estrictos estándares de la industria:
 5.  **Excepción de Batería:** Ve a los ajustes de tu teléfono y asegúrate de quitarle la "Optimización de Batería" a Argus para que el rastreo no se duerma.
 
 ---
+
+## `>_` 📺 Tutorial de Instalación y Configuración
+
+¿Prefieres una guía visual? Mira el video oficial donde explicamos paso a paso cómo descargar el APK, evadir los bloqueos de seguridad de Android (Play Protect) y configurar correctamente los permisos críticos (Accesibilidad, Administrador de Dispositivos, etc.) para que el blindaje de Argus funcione al 100%.
+
+<div align="center">
+  <a href="https://www.youtube.com/watch?v=8I9_sktv7GA" target="_blank">
+    <img src="https://img.youtube.com/vi/8I9_sktv7GA/maxresdefault.jpg" alt="ARGUS Antirrobo: Guía Completa de Instalación y Configuración de Permisos" width="80%" style="border-radius: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.5);">
+  </a>
+  <br>
+  <em>Clic en la imagen para reproducir el tutorial en YouTube</em>
+</div>
+
+---
+
 
 ## `>_` ❓ Solución de Problemas (FAQ)
 
