@@ -163,11 +163,11 @@ Este ecosistema ha sido diseñado bajo estrictos estándares de la industria:
 > **R:** Argus utiliza permisos para evitar su propia desinstalación y para poder bloquear la pantalla. Los sistemas automatizados detectan esto como un "Falso Positivo" porque es un comportamiento inusual para una app común, pero vital para una app Anti-robo.
 
 **P: El panel web dice "Terminal en Espera" o no actualiza el GPS.**
-> **R:** Si el equipo está encendido, es probable que la capa de personalización (Xiaomi, Samsung, Motorola) esté "durmiendo" la app. Debes ir a los ajustes de batería de Argus y ponerla en **"Sin Restricciones"** o **"Permitir siempre"**.
+> **R:** Si el equipo está encendido, es posible que el sistema operativo esté restringiendo la actividad en segundo plano para ahorrar energía. En Ajustes > Aplicaciones > Argus > Batería, seleccione 'Sin restricciones'. A parte Verifica que la ubicación siempre esté encendida y que el dispositivo tenga señal de datos o Wi-Fi.
 
 **P: ¿Cómo desinstalo Argus de mi celular?**
 > **R:** El botón de desinstalar estará bloqueado (¡esa es la idea!). Para removerla, primero debes ir a `Ajustes > Seguridad > Administradores de Dispositivos`, desmarcar a Argus y luego desinstalarla normalmente.
-
+> 
 ---
 
 ## `>_` Reporte de Vulnerabilidades
