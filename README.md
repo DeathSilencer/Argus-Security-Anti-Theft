@@ -16,7 +16,7 @@
 
 | 🛡️ | **Estado** | **Descripción y Novedades** |
 | :---: | :--- | :--- |
-| **v2.5** | 🚀 **Estable** | *Suite de Seguridad Activa: Cliente Android (El Escudo) + Panel Web (El Arsenal).* <br> **¡Descarga el APK oficial abajo!** <br><br> <details><summary><strong>✨ Clic para ver Novedades v2.5</strong></summary><br>Esta actualización introduce contramedidas autónomas y control total remoto:<br><br><b>🛡️ Defensa Activa</b><ul><li><b>Apagado Falso Remoto y Local:</b> Simula que el equipo se apaga, pero mantiene el rastreo y la cámara activos.</li><li><b>Tolerancia a Desconexión (Watchdog):</b> Si envías un comando sin internet, se encola y ejecuta apenas recupere la señal.</li><li><b>Blindaje "Zero-Knowledge":</b> Evidencias multimedia directas a tu correo. El servidor no retiene nada.</li></ul></details> |
+| **v2.5** | 🚀 **Estable** | *Suite de Seguridad Activa: Cliente Android (El Escudo) + Panel Web (El Arsenal).* <br> **¡Descarga el APK oficial abajo!** <br><br> <details><summary><strong>✨ Clic para ver Novedades v2.5</strong></summary><br>Esta actualización introduce contramedidas autónomas y control total remoto:<br><br><b>🛡️ Defensa Activa</b><ul><li><b>Apagado Falso Remoto y Local:</b> Simula que el equipo se apaga, pero mantiene el rastreo y la cámara activos.</li><li><b>Tolerancia a Desconexión (Watchdog):</b> Si envías un comando sin internet, se encola y ejecuta apenas recupere la señal.</li><li> Evidencias multimedia directas a tu correo. El servidor no retiene nada.</li></ul></details> |
 
 <br>
 </div>
@@ -157,7 +157,7 @@ Este ecosistema ha sido diseñado bajo estrictos estándares de la industria:
 | Componente | Descripción |
 | :--- | :--- |
 | **Criptografía** | AES-256 (en reposo) y túneles TLS 1.2/1.3. La evidencia no se guarda en servidores secundarios. |
-| **Arquitectura** | Cliente Android nativo de bajo nivel + Panel Web *Zero-Knowledge*. |
+| **Arquitectura** | Cliente Android nativo de bajo nivel + Panel Web. |
 | **Autenticación** | Validada criptográficamente vía Google Auth. Pagos seguros vía Stripe (PCI-DSS Nivel 1). |
 | **Detección Root** | Autodestrucción de ejecución si detecta sistema operativo modificado (Root/Jailbreak) para proteger los datos. |
 
@@ -199,7 +199,7 @@ Si encuentras un *bug* o anomalía, por favor utiliza el **Centro de Ayuda / Rep
 - 🛡️ Operando bajo el principio de "Privacidad por Diseño".
 
 <div align="center">
-  <a href="https://github.com/TU_USUARIO">
+  <a href="[https://github.com/TU_USUARIO](https://github.com/DeathSilencer)">
     <img src="https://img.shields.io/badge/Perfil_de_GitHub-black?style=for-the-badge&logo=github" />
   </a>
 </div>
