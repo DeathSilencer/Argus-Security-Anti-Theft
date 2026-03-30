@@ -80,12 +80,12 @@ Explora la interfaz móvil y el centro de mando:
             </td>
         </tr>
         <tr>
+            <td align="center" width="50%">
+                <strong>Licencia en App</strong><br>
+                <img src="assets/screenshot_licence.png" width="100%" alt="Evidencia">
+            </td>
             <td align="center" width="50%"> <strong>Arsenal Web (Centro de Mando)</strong><br>
                 <img src="assets/screenshot_web_arsenal.png" width="100%" alt="Web Arsenal">
-            </td>
-            <td align="center" width="50%">
-                <strong>Recepción de Evidencia Cifrada</strong><br>
-                <img src="assets/screenshot_evidence.png" width="100%" alt="Evidencia">
             </td>
         </tr>
     </table>
@@ -176,7 +176,7 @@ Si encuentras un *bug* o anomalía, por favor utiliza el **Centro de Ayuda / Rep
 - 🛡️ Operando bajo el principio de "Privacidad por Diseño".
 
 <div align="center">
-  <a href="[https://github.com/TU_USUARIO](https://github.com/DeathSilencer)">
+  <a href="https://github.com/DeathSilencer">
     <img src="https://img.shields.io/badge/Perfil_de_GitHub-black?style=for-the-badge&logo=github" />
   </a>
 </div>
