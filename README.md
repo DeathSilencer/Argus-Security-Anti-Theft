@@ -6,17 +6,18 @@
 
 **Plataforma de Seguridad Integral, Defensiva y Táctica para Android. Rastreo, telemetría y contramedidas activas.**
 
+### 🌐 [www.argusantirrobo.com](https://www.argusantirrobo.com)
+
+[![Website](https://img.shields.io/badge/Website-argusantirrobo.com-blue?style=flat&logo=google-chrome&logoColor=white)](https://www.argusantirrobo.com)
 [![License](https://img.shields.io/badge/license-Proprietary-red.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Android%20|%20Web-3DDC84.svg)](https://www.android.com/)
-[![Architecture](https://img.shields.io/badge/architecture-Client%2FServer-0052CC.svg)]()
-[![Encryption](https://img.shields.io/badge/security-AES--256-orange.svg)]()
 [![Status](https://img.shields.io/badge/Estado-Estable%20v2.5-success.svg)]()
 
 <br>
 
 | 🛡️ | **Estado** | **Descripción y Novedades** |
 | :---: | :--- | :--- |
-| **v2.5** | 🚀 **Estable** | *Suite de Seguridad Activa: Cliente Android (El Escudo) + Panel Web (El Arsenal).* <br> **¡Descarga el APK oficial abajo!** <br><br> <details><summary><strong>✨ Clic para ver Novedades v2.5</strong></summary><br>Esta actualización introduce contramedidas autónomas y control total remoto:<br><br><b>🛡️ Defensa Activa</b><ul><li><b>Apagado Falso Remoto y Local:</b> Simula que el equipo se apaga, pero mantiene el rastreo y la cámara activos.</li><li><b>Tolerancia a Desconexión (Watchdog):</b> Si envías un comando sin internet, se encola y ejecuta apenas recupere la señal.</li><li> Evidencias multimedia directas a tu correo. El servidor no retiene nada.</li></ul></details> |
+| **v2.5** | 🚀 **Estable** | *Suite de Seguridad Activa: Cliente Android (El Escudo) + [Panel Web Oficial](https://www.argusantirrobo.com).* <br> **¡Descarga el APK oficial abajo!** <br><br> <details><summary><strong>✨ Clic para ver Novedades v2.5</strong></summary><br>Esta actualización introduce contramedidas autónomas y control total remoto:<br><br><b>🛡️ Defensa Activa</b><ul><li><b>Apagado Falso Remoto y Local:</b> Simula que el equipo se apaga, pero mantiene el rastreo y la cámara activos.</li><li><b>Tolerancia a Desconexión (Watchdog):</b> Si envías un comando sin internet, se encola y ejecuta apenas recupere la señal.</li><li> Evidencias multimedia directas a tu correo. El servidor no retiene nada.</li></ul></details> |
 
 <br>
 </div>
