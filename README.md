@@ -11,13 +11,13 @@
 [![Website](https://img.shields.io/badge/Website-argusantirrobo.com-blue?style=flat&logo=google-chrome&logoColor=white)](https://www.argusantirrobo.com)
 [![License](https://img.shields.io/badge/license-Proprietary-red.svg)](LICENSE)
 [![Platform](https://img.shields.io/badge/platform-Android%20|%20Web-3DDC84.svg)](https://www.android.com/)
-[![Status](https://img.shields.io/badge/Estado-Estable%20v2.5-success.svg)]()
+[![Status](https://img.shields.io/badge/Estado-Estable%20v3.4-success.svg)]()
 
 <br>
 
 | 🛡️ | **Estado** | **Descripción y Novedades** |
 | :---: | :--- | :--- |
-| **v2.5** | 🚀 **Estable** | *Suite de Seguridad Activa: Cliente Android (El Escudo) + [Panel Web Oficial](https://www.argusantirrobo.com).* <br> **¡Descarga el APK oficial abajo!** <br><br> <details><summary><strong>✨ Clic para ver Novedades v2.5</strong></summary><br>Esta actualización introduce contramedidas autónomas y control total remoto:<br><br><b>🛡️ Defensa Activa</b><ul><li><b>Apagado Falso Remoto y Local:</b> Simula que el equipo se apaga, pero mantiene el rastreo y la cámara activos.</li><li><b>Tolerancia a Desconexión (Watchdog):</b> Si envías un comando sin internet, se encola y ejecuta apenas recupere la señal.</li><li> Evidencias multimedia directas a tu correo. El servidor no retiene nada.</li></ul></details> |
+| **v3.4** | 🚀 **Estable** | *Suite de Seguridad Activa: Cliente Android (El Escudo) + [Panel Web Oficial](https://www.argusantirrobo.com).* <br> **¡Descarga el APK oficial abajo!** <br><br> <details><summary><strong>✨ Clic para ver Novedades v3.4 (Build 19)</strong></summary><br>Esta actualización incluye el nuevo núcleo de sincronización reactiva en tiempo real y defensa reforzada:<br><br><b>🛡️ Novedades Principales</b><ul><li><b>Sincronización Instantánea de Licencias:</b> Detección sub-segundo de renovaciones y expiraciones vía Firestore gRPC en vivo y Ping FCM silencioso.</li><li><b>Expiración Exacta al Milisegundo:</b> Temporizador de alta precisión que bloquea la terminal e informa en el segundo exacto que vence la suscripción.</li><li><b>Notificación Frontal Mutable Unificada (ID 1001):</b> Transición instantánea entre Escudo Protegido, Alerta Heads-Up de Permisos Revocados y Notificación Prioritaria de Actualización OTA.</li><li><b>Centinela de Permisos Continuo (12s):</b> Auditoría en segundo plano que detecta qué permiso fue revocado y avisa al instante con acción rápida de restauración.</li><li><b>Blindaje Criptográfico HMAC-SHA256:</b> Licencia protegida a nivel hardware contra herramientas de manipulación de memoria (GameGuardian, editores de SharedPreferences).</li><li><b>Internacionalización Completa:</b> Soporte bilingüe integral (Español / Inglés) tanto en la aplicación móvil como en el Centro de Mando Web.</li></ul></details> |
 
 <br>
 </div>
@@ -38,6 +38,7 @@
     - [Los Centinelas (Seguridad Automática)](#los-centinelas-seguridad-automática)
   - [`>_` Arquitectura y Seguridad](#_-arquitectura-y-seguridad)
   - [`>_` Instalación](#_-instalación)
+  - [`>_` 📺 Tutorial de Instalación y Configuración](#_--tutorial-de-instalación-y-configuración)
   - [`>_` ❓ Solución de Problemas (FAQ)](#_--solución-de-problemas-faq)
   - [`>_` Reporte de Vulnerabilidades](#_-reporte-de-vulnerabilidades)
   - [`>_` 🙌 Créditos y Desarrollador](#_--créditos-y-desarrollador)
@@ -103,7 +104,7 @@ Explora la interfaz móvil y el centro de mando:
 
 ## `>_` ⬇️ Descarga Oficial
 
-Este repositorio es el único canal oficial de distribución. Descarga el archivo `argus_v2.5.apk` directamente desde la sección de **Releases**:
+Este repositorio es el canal oficial de distribución. Descarga el archivo `Argus.apk` directamente desde la sección de **Releases** o desde nuestro portal web:
 
 <div align="center">
   <a href="https://github.com/DeathSilencer/Argus-Security-Anti-Theft/releases">
@@ -119,18 +120,20 @@ Argus opera en dos frentes simultáneos para garantizar la seguridad:
 
 ### El Arsenal (Comandos Web Remotos)
 Accede a tu panel desde cualquier PC o celular y ejecuta:
-- **📍 Rastreo Activo y Ping:** Coordenadas en tiempo real.
-- **📸 Intercepción Multimedia:** Toma fotos, videos (15s) o graba audio ambiental de forma 100% silenciosa.
+- **📍 Rastreo Activo y Ping:** Coordenadas en tiempo real y verificación de conectividad con latencia cero.
+- **📸 Intercepción Multimedia:** Toma fotos frontales/traseras, ráfagas de video o graba audio ambiental de forma 100% silenciosa.
 - **🚨 Modo Pánico:** Alarma y flash a máxima potencia, anulando el modo "No Molestar".
-- **💀 Falso Apagado Remoto:** Finge que el dispositivo se apaga para que el ladrón deje de intentar vulnerarlo.
+- **💀 Falso Apagado Remoto:** Finge que el dispositivo se apaga para que el intruso deje de intentar vulnerarlo mientras sigue transmitiendo.
 - **💬 Mensaje Persistente:** Proyecta un texto en pantalla que el intruso no puede cerrar.
+- **🔄 Sincronización Remota de Licencia:** Actualización y reactivación instantánea de credenciales sin tocar el dispositivo.
 
 ### Los Centinelas (Seguridad Automática)
 Vigilan tu dispositivo 24/7 sin necesitar comandos:
-- **Tácticas Anti-Apagado:** Intercepta el botón físico y muestra un menú falso.
-- **Desbloqueo Forzado:** Toma una foto automáticamente tras 3 intentos fallidos de PIN.
+- **Tácticas Anti-Apagado:** Intercepta el menú de encendido y previene apagado no autorizado.
+- **Desbloqueo Forzado:** Toma evidencia automática tras intentos fallidos de PIN/patrón.
+- **Centinela de Permisos Activo:** Detecta la revocación de cualquier permiso crítico y emite alertas prioritarias.
 - **Sensores de Perímetro:** Detonan la alarma si se **desconecta el cargador**, si **extraen la SIM**, o si se detecta **movimiento brusco**.
-- **Protocolo Último Aliento (Batería 5%):** Envía ubicación/foto automática y baja el brillo a cero antes de morir.
+- **Protocolo Batería Crítica:** Envía ubicación y evidencia automática antes de agotarse la batería.
 
 ---
 
@@ -140,26 +143,26 @@ Este ecosistema ha sido diseñado bajo estrictos estándares de la industria:
 
 | Componente | Descripción |
 | :--- | :--- |
-| **Criptografía** | AES-256 (en reposo) y túneles TLS 1.2/1.3. La evidencia no se guarda en servidores secundarios. |
-| **Arquitectura** | Cliente Android nativo de bajo nivel + Panel Web. |
-| **Autenticación** | Validada criptográficamente vía Google Auth. Pagos seguros vía Stripe (PCI-DSS Nivel 1). |
-| **Detección Root** | Autodestrucción de ejecución si detecta sistema operativo modificado (Root/Jailbreak) para proteger los datos. |
+| **Criptografía** | AES-256 (en reposo), HMAC-SHA256 con sal por hardware y túneles TLS 1.2/1.3. |
+| **Arquitectura** | Cliente Android nativo de bajo nivel (Kotlin Coroutines + Jetpack Compose) + Panel Web React. |
+| **Autenticación** | Validada criptográficamente vía Google Auth y Firebase App Check. Pagos seguros vía Stripe (PCI-DSS Nivel 1). |
+| **Anti-Tampering** | Integridad verificada criptográficamente para prevenir manipulación con GameGuardian, clonadores o acceso root. |
 
 ---
 
 ## `>_` Instalación
 
-1.  **Ajuste de Play Protect:** En Google Play Store > Perfil > Play Protect > Configuración, desactiva temporalmente el análisis. *(Requerido debido a la integración profunda en el núcleo del sistema).*
-2.  **Descarga:** Obtén el archivo `.apk` desde los *Releases* de este repositorio.
-3.  **Permisos Críticos:** Al abrir la app, deberás conceder privilegios de *Administrador de Dispositivos* y *Accesibilidad*. Sigue las instrucciones en pantalla para el "Ajuste Restringido" si estás en Android 13+.
-4.  **Verificación:** Puedes reactivar Play Protect y realizar un escaneo. Google confirmará que Argus está instalado y seguro.
-5.  **Excepción de Batería:** Ve a los ajustes de tu teléfono y asegúrate de quitarle la "Optimización de Batería" a Argus para que el rastreo no se duerma.
+1. **Ajuste de Play Protect:** En Google Play Store > Perfil > Play Protect > Configuración, desactiva temporalmente el análisis. *(Requerido debido a la integración profunda en el núcleo del sistema).*
+2. **Descarga:** Obtén el archivo `Argus.apk` desde los *Releases* de este repositorio o desde `argusantirrobo.com`.
+3. **Permisos Críticos:** Al abrir la app, deberás conceder privilegios de *Administrador de Dispositivos* y *Accesibilidad*. Sigue las instrucciones en pantalla para el "Ajuste Restringido" si estás en Android 13+.
+4. **Verificación:** Puedes reactivar Play Protect y realizar un escaneo. Google confirmará que Argus está instalado y seguro.
+5. **Excepción de Batería:** Ve a los ajustes de tu teléfono y asegúrate de quitarle la "Optimización de Batería" a Argus para que el rastreo no se suspenda.
 
 ---
 
 ## `>_` 📺 Tutorial de Instalación y Configuración
 
-¿Prefieres una guía visual? Mira el video oficial donde explicamos paso a paso cómo descargar el APK, evadir los bloqueos de seguridad de Android (Play Protect) y configurar correctamente los permisos críticos (Accesibilidad, Administrador de Dispositivos, etc.) para que el blindaje de Argus funcione al 100%.
+¿Prefieres una guía visual? Mira el video oficial donde explicamos paso a paso cómo descargar el APK, configurar Play Protect y otorgar correctamente los permisos críticos (Accesibilidad, Administrador de Dispositivos, etc.) para que el blindaje de Argus funcione al 100%.
 
 <div align="center">
   <a href="https://www.youtube.com/watch?v=8I9_sktv7GA" target="_blank">
@@ -171,23 +174,25 @@ Este ecosistema ha sido diseñado bajo estrictos estándares de la industria:
 
 ---
 
-
 ## `>_` ❓ Solución de Problemas (FAQ)
 
+**P: ¿Por qué mi aplicación de banco me pide cerrar Argus o desactivar la accesibilidad?**
+> **R:** Es **completamente normal** y una medida de seguridad preventiva implementada por las aplicaciones bancarias. Los bancos detectan cualquier servicio de accesibilidad activo en el teléfono para prevenir que troyanos financieros o malware lean la pantalla. Si tu banco te solicita cerrar Argus, **puedes cerrarla o pausar su accesibilidad temporalmente para realizar tus operaciones bancarias**. Una vez que termines tus transacciones, **es fundamental que vuelvas a abrir la app de Argus para que el servicio de protección y los centinelas reactiven su blindaje en el dispositivo**.
+
 **P: ¿Por qué Google Play Protect u otros antivirus me lanzan una advertencia?**
-> **R:** Argus utiliza permisos para evitar su propia desinstalación y para poder bloquear la pantalla. Los sistemas automatizados detectan esto como un "Falso Positivo" porque es un comportamiento inusual para una app común, pero vital para una app Anti-robo.
+> **R:** Argus utiliza permisos para evitar su propia desinstalación y para poder bloquear la pantalla. Los sistemas automatizados detectan esto como un "Falso Positivo" porque es un comportamiento inusual para una app común, pero vital para una app Anti-robo táctica.
 
 **P: El panel web dice "Terminal en Espera" o no actualiza el GPS.**
-> **R:** Si el equipo está encendido, es posible que el sistema operativo esté restringiendo la actividad en segundo plano para ahorrar energía. En Ajustes > Aplicaciones > Argus > Batería, seleccione 'Sin restricciones'. A parte Verifica que la ubicación siempre esté encendida y que el dispositivo tenga señal de datos o Wi-Fi.
+> **R:** Si el equipo está encendido, es posible que el sistema operativo esté restringiendo la actividad en segundo plano para ahorrar energía. En Ajustes > Aplicaciones > Argus > Batería, seleccione 'Sin restricciones'. Además, verifica que la ubicación siempre esté encendida y que el dispositivo cuente con señal de datos o Wi-Fi.
 
 **P: ¿Cómo desinstalo Argus de mi celular?**
 > **R:** El botón de desinstalar estará bloqueado (¡esa es la idea!). Para removerla, primero debes ir a `Ajustes > Seguridad > Administradores de Dispositivos`, desmarcar a Argus y luego desinstalarla normalmente.
-> 
+
 ---
 
 ## `>_` Reporte de Vulnerabilidades
 
-Como este repositorio distribuye una aplicación de código cerrado por motivos de seguridad, los Issues están deshabilitados. 
+Como este repositorio distribuye una aplicación con núcleos de seguridad protegidos, los Issues públicos están deshabilitados. 
 Si encuentras un *bug* o anomalía, por favor utiliza el **Centro de Ayuda / Reportar Bug** dentro de la misma aplicación móvil o en el Panel Web. Cada reporte es analizado personalmente.
 
 ---
